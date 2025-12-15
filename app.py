@@ -49,7 +49,7 @@ Output format:
 # GEMINI MODEL
 # -------------------------
 model = genai.GenerativeModel(
-    model_name="models/gemini-1.5-flash",
+    model_name="models/gemini-2.5-flash",
     system_instruction=SYSTEM_PROMPT
 )
 
@@ -57,7 +57,7 @@ model = genai.GenerativeModel(
 # UI
 # -------------------------
 st.title("🚀 AI Go-To-Market Planner")
-st.write("Generate a contextual GTM plan for early-stage startups using Gemini 1.5 Flash.")
+st.write("Generate a contextual GTM plan for early-stage startups using Gemini 2.5 Flash.")
 
 st.subheader("Startup Details")
 
