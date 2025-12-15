@@ -116,8 +116,9 @@ pip install -r requirements.txt
 ```
 
 ## 3️⃣ Set API key (local only)
+Open the `app.py` file and add the following line to your code:
 ```
-export GEMINI_API_KEY="your_api_key_here"
+export GEMINI_API_KEY="your_api_key_here"             # update with your local API Key
 ```
 
 ## 4️⃣ Run the app
