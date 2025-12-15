@@ -1,5 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
+import os
+
 
 # -------------------------
 # PAGE CONFIG
@@ -12,7 +14,7 @@ st.set_page_config(
 # -------------------------
 # GEMINI CONFIG
 # -------------------------
-genai.configure(api_key="AIzaSyBKM7nwLWkkpsQ9-DtlEJNhyomspT547oI")  # 🔴 replace this
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # -------------------------
 # SYSTEM PROMPT (FINAL)
